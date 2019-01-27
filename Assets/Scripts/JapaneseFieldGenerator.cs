@@ -15,7 +15,7 @@ public class JapaneseFieldGenerator : MonoBehaviour
         {
             for (int i = 0; i < fieldSize; i++)
             {
-                GameObject btn = Instantiate(tile, new Vector3(i*15-20, j*15+30, 0), Quaternion.identity);
+                GameObject btn = Instantiate(tile, new Vector3(i*25-20+350, j*25+30+300, 0), Quaternion.identity);
                 btn.transform.SetParent(transform);
             }
         }
